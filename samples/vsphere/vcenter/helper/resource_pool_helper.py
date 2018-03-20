@@ -36,7 +36,6 @@ def get_resource_pool(client, datacenter_name, resource_pool_name=None):
     resource_pool_summaries = client.vcenter.ResourcePool.list(filter_spec)
     if len(resource_pool_summaries) > 0:
         resource_pool = resource_pool_summaries[0].resource_pool
-        print("Selecting ResourcePool '{}'".format(resource_pool))
         return resource_pool
     else:
         print("ResourcePool not found in Datacenter '{}'".

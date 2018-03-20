@@ -37,7 +37,6 @@ def get_folder(client, datacenter_name, folder_name):
     folder_summaries = client.vcenter.Folder.list(filter_spec)
     if len(folder_summaries) > 0:
         folder = folder_summaries[0].folder
-        print("Detected folder '{}' as {}".format(folder_name, folder))
         return folder
     else:
         print("Folder '{}' not found".format(folder_name))
