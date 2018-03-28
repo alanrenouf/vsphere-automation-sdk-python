@@ -1,0 +1,1130 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>com.vmware.appliance.recovery package &mdash; vSphere Automation SDK for Python 1.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="vSphere Automation SDK for Python 1.1.0 documentation" href="index.html"/>
+        <link rel="up" title="com.vmware.appliance package" href="com.vmware.appliance.html"/>
+        <link rel="next" title="com.vmware.cis package" href="com.vmware.cis.html"/>
+        <link rel="prev" title="com.vmware.appliance.networking package" href="com.vmware.appliance.networking.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> vSphere Automation SDK for Python
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="com.html">com package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="com.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="com.vmware.html">com.vmware package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="com.vmware.html#subpackages">Subpackages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#module-com.vmware.appliance_client">com.vmware.appliance_client module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#module-com.vmware.cis_client">com.vmware.cis_client module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#module-com.vmware.content_client">com.vmware.content_client module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#module-com.vmware.vcenter_client">com.vmware.vcenter_client module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="com.vmware.html#module-com.vmware.vmc_client">com.vmware.vmc_client module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vmware.html">vmware package</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">vSphere Automation SDK for Python</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="com.html">com package</a> &raquo;</li>
+        
+          <li><a href="com.vmware.html">com.vmware package</a> &raquo;</li>
+        
+          <li><a href="com.vmware.appliance.html">com.vmware.appliance package</a> &raquo;</li>
+        
+      <li>com.vmware.appliance.recovery package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/com.vmware.appliance.recovery.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-com.vmware.appliance.recovery">
+<span id="com-vmware-appliance-recovery-package"></span><h1>com.vmware.appliance.recovery package<a class="headerlink" href="#module-com.vmware.appliance.recovery" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-com.vmware.appliance.recovery.backup_client">
+<span id="com-vmware-appliance-recovery-backup-client-module"></span><h2>com.vmware.appliance.recovery.backup_client module<a class="headerlink" href="#module-com.vmware.appliance.recovery.backup_client" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job">
+<em class="property">class </em><code class="descclassname">com.vmware.appliance.recovery.backup_client.</code><code class="descname">Job</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.VapiInterface</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job</span></code> class provides methods to be performed on a backup job.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubConfiguration</span></code>) – Configuration to be used for creating the stub.</td>
+</tr>
+</tbody>
+</table>
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus">
+<em class="property">class </em><code class="descname">BackupJobStatus</code><span class="sig-paren">(</span><em>id=None</em>, <em>state=None</em>, <em>messages=None</em>, <em>progress=None</em>, <em>start_time=None</em>, <em>end_time=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.BackupJobStatus</span></code> class represents the status of a backup/restore
+job.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – TimeStamp based ID.</li>
+<li><strong>state</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState" title="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupRestoreProcessState</span></code></a>) – The state of the backup job.</li>
+<li><strong>messages</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage" title="com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code></a>) – List of messages.</li>
+<li><strong>progress</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">long</span></code>) – Progress of the job in percentage.</li>
+<li><strong>start_time</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.datetime</span></code>) – Time when the backup was started.</li>
+<li><strong>end_time</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.datetime</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – Time when the backup was finished.
+If None end time is None until backup is finished.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRequest">
+<em class="property">class </em><code class="descname">BackupRequest</code><span class="sig-paren">(</span><em>parts=None</em>, <em>backup_password=None</em>, <em>location_type=None</em>, <em>location=None</em>, <em>location_user=None</em>, <em>location_password=None</em>, <em>comment=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.BackupRequest</span></code> class represents a requested backup piece.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>parts</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – List of optional parts that will be included in the backup. Use the
+<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Parts.list" title="com.vmware.appliance.recovery.backup_client.Parts.list"><code class="xref py py-func docutils literal notranslate"><span class="pre">Parts.list()</span></code></a> method to get information about the supported
+parts.</li>
+<li><strong>backup_password</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – Password for a backup piece. The backupPassword must adhere to the
+following password requirements: At least 8 characters, cannot be
+more than 20 characters in length. At least 1 uppercase letter. At
+least 1 lowercase letter. At least 1 numeric digit. At least 1
+special character (i.e. any character not in [0-9,a-z,A-Z]). Only
+visible ASCII characters (for example, no space).
+backupPassword If no password then the piece will not be encrypted</li>
+<li><strong>location_type</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType" title="com.vmware.appliance.recovery.backup_client.Job.LocationType"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocationType</span></code></a>) – Type of backup location.</li>
+<li><strong>location</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Path or URL of the backup location.</li>
+<li><strong>location_user</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – Username for the given location.
+If None authentication will not be used for the specified location.</li>
+<li><strong>location_password</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – Password for the given location.
+If None authentication will not be used for the specified location.</li>
+<li><strong>comment</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – Custom comment provided by the user.
+If None comment will be empty.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState">
+<em class="property">class </em><code class="descname">BackupRestoreProcessState</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.BackupRestoreProcessState</span></code> class defines the possible states of
+a backup/restore process.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">BackupRestoreProcessState</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.FAILED">
+<code class="descname">FAILED</code><em class="property"> = BackupRestoreProcessState(string='FAILED')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.FAILED" title="Permalink to this definition">¶</a></dt>
+<dd><p>Backup/Restore job failed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.INPROGRESS">
+<code class="descname">INPROGRESS</code><em class="property"> = BackupRestoreProcessState(string='INPROGRESS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.INPROGRESS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Backup/Restore job is in progress.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.NONE">
+<code class="descname">NONE</code><em class="property"> = BackupRestoreProcessState(string='NONE')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.NONE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Backup/Restore job is not started.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.SUCCEEDED">
+<code class="descname">SUCCEEDED</code><em class="property"> = BackupRestoreProcessState(string='SUCCEEDED')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRestoreProcessState.SUCCEEDED" title="Permalink to this definition">¶</a></dt>
+<dd><p>Backup/Restore job completed successfully.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage">
+<em class="property">class </em><code class="descname">LocalizableMessage</code><span class="sig-paren">(</span><em>id=None</em>, <em>default_message=None</em>, <em>args=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code> class represents a localizable message.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Id in message bundle.</li>
+<li><strong>default_message</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Text in english.</li>
+<li><strong>args</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Nested data.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType">
+<em class="property">class </em><code class="descname">LocationType</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.LocationType</span></code> class defines the type of destination location for
+backup/restore. You specify the location type when you create a backup job.
+See <a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRequest" title="com.vmware.appliance.recovery.backup_client.Job.BackupRequest"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupRequest</span></code></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">LocationType</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType.FTP">
+<code class="descname">FTP</code><em class="property"> = LocationType(string='FTP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType.FTP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is FTP server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType.FTPS">
+<code class="descname">FTPS</code><em class="property"> = LocationType(string='FTPS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType.FTPS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is FTPS server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType.HTTP">
+<code class="descname">HTTP</code><em class="property"> = LocationType(string='HTTP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType.HTTP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is HTTP server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType.HTTPS">
+<code class="descname">HTTPS</code><em class="property"> = LocationType(string='HTTPS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType.HTTPS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is HTTPS server.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.LocationType.SCP">
+<code class="descname">SCP</code><em class="property"> = LocationType(string='SCP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.LocationType.SCP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is SSH server.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.ReturnResult">
+<em class="property">class </em><code class="descname">ReturnResult</code><span class="sig-paren">(</span><em>status=None</em>, <em>messages=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.ReturnResult</span></code> class contains the result information for the
+cancel operation.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>status</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnStatus" title="com.vmware.appliance.recovery.backup_client.Job.ReturnStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.ReturnStatus</span></code></a>) – Status of the cancel operation.</li>
+<li><strong>messages</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage" title="com.vmware.appliance.recovery.backup_client.Job.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code></a>) – List of messages.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.ReturnStatus">
+<em class="property">class </em><code class="descname">ReturnStatus</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">Job.ReturnStatus</span></code> class defines the return type for the cancel
+operation. You specify the return status when you return the result of
+cancel job. See <a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnResult" title="com.vmware.appliance.recovery.backup_client.Job.ReturnResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.ReturnResult</span></code></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">ReturnStatus</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.FAIL">
+<code class="descname">FAIL</code><em class="property"> = ReturnStatus(string='FAIL')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.FAIL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancel operation failed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.OK">
+<code class="descname">OK</code><em class="property"> = ReturnStatus(string='OK')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.OK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancel operation succeeded.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.WARNING">
+<code class="descname">WARNING</code><em class="property"> = ReturnStatus(string='WARNING')</em><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnStatus.WARNING" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancel operation passed with warnings.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.cancel">
+<code class="descname">cancel</code><span class="sig-paren">(</span><em>id</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.cancel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancel the backup job.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – ID (ID of job)
+The parameter must be an identifier for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.job</span></code>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.ReturnResult" title="com.vmware.appliance.recovery.backup_client.Job.ReturnResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.ReturnResult</span></code></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">BackupJobStatus Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.NotFound</span></code> 
+if backup associated with id does not exist.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.create">
+<code class="descname">create</code><span class="sig-paren">(</span><em>piece</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.create" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initiate backup.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>piece</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.BackupRequest" title="com.vmware.appliance.recovery.backup_client.Job.BackupRequest"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupRequest</span></code></a>) – BackupRequest Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus" title="com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupJobStatus</span></code></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">BackupJobStatus Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.FeatureInUse</span></code> 
+A backup or restore is already in progress.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>id</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>See backup job progress/result.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – ID (ID of job)
+The parameter must be an identifier for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.job</span></code>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus" title="com.vmware.appliance.recovery.backup_client.Job.BackupJobStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupJobStatus</span></code></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">BackupJobStatus Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.NotFound</span></code> 
+if backup associated with id does not exist.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Job.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Job.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get list of backup jobs</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Job.list" title="com.vmware.appliance.recovery.backup_client.Job.list"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></a> of <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">list of BackupJob IDs
+The return value will contain identifiers for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.job</span></code>.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Parts">
+<em class="property">class </em><code class="descclassname">com.vmware.appliance.recovery.backup_client.</code><code class="descname">Parts</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Parts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.VapiInterface</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Parts</span></code> class provides methods Provides list of parts optional for the
+backup</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubConfiguration</span></code>) – Configuration to be used for creating the stub.</td>
+</tr>
+</tbody>
+</table>
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage">
+<em class="property">class </em><code class="descname">LocalizableMessage</code><span class="sig-paren">(</span><em>id=None</em>, <em>default_message=None</em>, <em>args=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Parts.LocalizableMessage</span></code> class Structure representing message</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – id in message bundle</li>
+<li><strong>default_message</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – text in english</li>
+<li><strong>args</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – nested data</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.Parts.Part">
+<em class="property">class </em><code class="descname">Part</code><span class="sig-paren">(</span><em>id=None</em>, <em>name=None</em>, <em>description=None</em>, <em>selected_by_default=None</em>, <em>optional=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Parts.Part" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Parts.Part</span></code> class Structure representing backup restore part</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – part ID
+When clients pass a value of this class as a parameter, the
+attribute must be an identifier for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.parts</span></code>. When methods return
+a value of this class as a return value, the attribute will be an
+identifier for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.parts</span></code>.</li>
+<li><strong>name</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage" title="com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Parts.LocalizableMessage</span></code></a>) – part name id in message bundle</li>
+<li><strong>description</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage" title="com.vmware.appliance.recovery.backup_client.Parts.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Parts.LocalizableMessage</span></code></a>) – part description id in message bundle</li>
+<li><strong>selected_by_default</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>) – Is this part selected by default in the user interface.</li>
+<li><strong>optional</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>) – Is this part optional.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Parts.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>id</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Parts.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the size (in MB) of the part.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Identifier of the part.
+The parameter must be an identifier for the resource type:
+<code class="docutils literal notranslate"><span class="pre">com.vmware.appliance.recovery.backup.parts</span></code>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">long</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">long Size of the part in megabytes.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.backup_client.Parts.list">
+<code class="descname">list</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.Parts.list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets a list of the backup parts.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Parts.list" title="com.vmware.appliance.recovery.backup_client.Parts.list"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></a> of <a class="reference internal" href="#com.vmware.appliance.recovery.backup_client.Parts.Part" title="com.vmware.appliance.recovery.backup_client.Parts.Part"><code class="xref py py-class docutils literal notranslate"><span class="pre">Parts.Part</span></code></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Information about each of the backup parts.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+if any error occurs during the execution of the operation.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.backup_client.StubFactory">
+<em class="property">class </em><code class="descclassname">com.vmware.appliance.recovery.backup_client.</code><code class="descname">StubFactory</code><span class="sig-paren">(</span><em>stub_config</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.backup_client.StubFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubFactoryBase</span></code></p>
+<p>Initialize StubFactoryBase</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stub_config</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubConfiguration</span></code>) – Stub config instance</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-com.vmware.appliance.recovery.restore_client">
+<span id="com-vmware-appliance-recovery-restore-client-module"></span><h2>com.vmware.appliance.recovery.restore_client module<a class="headerlink" href="#module-com.vmware.appliance.recovery.restore_client" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job">
+<em class="property">class </em><code class="descclassname">com.vmware.appliance.recovery.restore_client.</code><code class="descname">Job</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.VapiInterface</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job</span></code> class provides methods Performs restore operations</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>config</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubConfiguration</span></code>) – Configuration to be used for creating the stub.</td>
+</tr>
+</tbody>
+</table>
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState">
+<em class="property">class </em><code class="descname">BackupRestoreProcessState</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.BackupRestoreProcessState</span></code> class Defines state of backup/restore
+process</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">BackupRestoreProcessState</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.FAILED">
+<code class="descname">FAILED</code><em class="property"> = BackupRestoreProcessState(string='FAILED')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.FAILED" title="Permalink to this definition">¶</a></dt>
+<dd><p>Failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.INPROGRESS">
+<code class="descname">INPROGRESS</code><em class="property"> = BackupRestoreProcessState(string='INPROGRESS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.INPROGRESS" title="Permalink to this definition">¶</a></dt>
+<dd><p>In progress</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.NONE">
+<code class="descname">NONE</code><em class="property"> = BackupRestoreProcessState(string='NONE')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.NONE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Not started</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.SUCCEEDED">
+<code class="descname">SUCCEEDED</code><em class="property"> = BackupRestoreProcessState(string='SUCCEEDED')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState.SUCCEEDED" title="Permalink to this definition">¶</a></dt>
+<dd><p>Completed successfully</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage">
+<em class="property">class </em><code class="descname">LocalizableMessage</code><span class="sig-paren">(</span><em>id=None</em>, <em>default_message=None</em>, <em>args=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code> class Structure representing message</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – id in message bundle</li>
+<li><strong>default_message</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – text in english</li>
+<li><strong>args</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – nested data</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType">
+<em class="property">class </em><code class="descname">LocationType</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.LocationType</span></code> class Defines type of all locations for backup/restore</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">LocationType</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType.FTP">
+<code class="descname">FTP</code><em class="property"> = LocationType(string='FTP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType.FTP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is FTP server</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType.FTPS">
+<code class="descname">FTPS</code><em class="property"> = LocationType(string='FTPS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType.FTPS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is FTPS server</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType.HTTP">
+<code class="descname">HTTP</code><em class="property"> = LocationType(string='HTTP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType.HTTP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is HTTP server</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType.HTTPS">
+<code class="descname">HTTPS</code><em class="property"> = LocationType(string='HTTPS')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType.HTTPS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is HTTPS server</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.LocationType.SCP">
+<code class="descname">SCP</code><em class="property"> = LocationType(string='SCP')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType.SCP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Destination is SSH server</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus">
+<em class="property">class </em><code class="descname">RestoreJobStatus</code><span class="sig-paren">(</span><em>state=None</em>, <em>messages=None</em>, <em>progress=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.RestoreJobStatus</span></code> class Structure representing backup restore status</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>state</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState" title="com.vmware.appliance.recovery.restore_client.Job.BackupRestoreProcessState"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.BackupRestoreProcessState</span></code></a>) – process state</li>
+<li><strong>messages</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage" title="com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code></a>) – list of messages</li>
+<li><strong>progress</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">long</span></code>) – percentage complete</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.RestoreRequest">
+<em class="property">class </em><code class="descname">RestoreRequest</code><span class="sig-paren">(</span><em>backup_password=None</em>, <em>location_type=None</em>, <em>location=None</em>, <em>location_user=None</em>, <em>location_password=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.RestoreRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.RestoreRequest</span></code> class Structure representing requested restore piece</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>backup_password</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – a password for a backup piece
+backupPassword If no password then the piece will not be decrypted</li>
+<li><strong>location_type</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.LocationType" title="com.vmware.appliance.recovery.restore_client.Job.LocationType"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocationType</span></code></a>) – a type of location</li>
+<li><strong>location</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – path or url</li>
+<li><strong>location_user</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – username for location
+locationUser User name for this location if login is required.</li>
+<li><strong>location_password</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>) – password for location
+locationPassword Password for the specified user if login is
+required at this location.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.ReturnResult">
+<em class="property">class </em><code class="descname">ReturnResult</code><span class="sig-paren">(</span><em>status=None</em>, <em>messages=None</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.struct.VapiStruct</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.ReturnResult</span></code> class Structure representing precheck result</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The arguments are used to initialize data attributes with the same
+names.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>status</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnStatus" title="com.vmware.appliance.recovery.restore_client.Job.ReturnStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.ReturnStatus</span></code></a>) – Check status</li>
+<li><strong>messages</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code> of <a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage" title="com.vmware.appliance.recovery.restore_client.Job.LocalizableMessage"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.LocalizableMessage</span></code></a>) – List of messages</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.ReturnStatus">
+<em class="property">class </em><code class="descname">ReturnStatus</code><span class="sig-paren">(</span><em>string</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnStatus" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.enum.Enum</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">Job.ReturnStatus</span></code> class Defines the state of precheck</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This class represents an enumerated type in the interface language
+definition. The class contains class attributes which represent the
+values in the current version of the enumerated type. Newer versions of
+the enumerated type may contain new values. To use new values of the
+enumerated type in communication with a server that supports the newer
+version of the API, you instantiate this class. See <a class="reference internal" href="enumeration.html#enumeration-description"><span class="std std-ref">enumerated
+type description page</span></a>.</p>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>string</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – String value for the <code class="xref py py-class docutils literal notranslate"><span class="pre">ReturnStatus</span></code> instance.</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.FAIL">
+<code class="descname">FAIL</code><em class="property"> = ReturnStatus(string='FAIL')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.FAIL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check failed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.OK">
+<code class="descname">OK</code><em class="property"> = ReturnStatus(string='OK')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.OK" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check passed</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.WARNING">
+<code class="descname">WARNING</code><em class="property"> = ReturnStatus(string='WARNING')</em><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnStatus.WARNING" title="Permalink to this definition">¶</a></dt>
+<dd><p>Passed with warnings</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.cancel">
+<code class="descname">cancel</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.cancel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cancel the restore job</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.ReturnResult" title="com.vmware.appliance.recovery.restore_client.Job.ReturnResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.ReturnResult</span></code></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">RestoreJobStatus Structure</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+Generic error</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.create">
+<code class="descname">create</code><span class="sig-paren">(</span><em>piece</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.create" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initiate restore.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>piece</strong> (<a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.RestoreRequest" title="com.vmware.appliance.recovery.restore_client.Job.RestoreRequest"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.RestoreRequest</span></code></a>) – RestoreRequest Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus" title="com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.RestoreJobStatus</span></code></a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">RestoreJobStatus Structure</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.FeatureInUse</span></code> 
+A backup or restore is already in progress</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.NotAllowedInCurrentState</span></code> 
+Restore is allowed only after deployment and before firstboot</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+Generic error</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="com.vmware.appliance.recovery.restore_client.Job.get">
+<code class="descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.Job.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>See restore job progress/result.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus" title="com.vmware.appliance.recovery.restore_client.Job.RestoreJobStatus"><code class="xref py py-class docutils literal notranslate"><span class="pre">Job.RestoreJobStatus</span></code></a></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">RestoreJobStatus Structure</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raise:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">com.vmware.vapi.std.errors_client.Error</span></code> 
+Generic error</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="com.vmware.appliance.recovery.restore_client.StubFactory">
+<em class="property">class </em><code class="descclassname">com.vmware.appliance.recovery.restore_client.</code><code class="descname">StubFactory</code><span class="sig-paren">(</span><em>stub_config</em><span class="sig-paren">)</span><a class="headerlink" href="#com.vmware.appliance.recovery.restore_client.StubFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubFactoryBase</span></code></p>
+<p>Initialize StubFactoryBase</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>stub_config</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">vmware.vapi.bindings.stub.StubConfiguration</span></code>) – Stub config instance</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="com.vmware.cis.html" class="btn btn-neutral float-right" title="com.vmware.cis package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="com.vmware.appliance.networking.html" class="btn btn-neutral" title="com.vmware.appliance.networking package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, VMware, Inc..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+vmware.vapi.lib package
+=======================
+
+.. automodule:: vmware.vapi.lib
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+
+    vmware.vapi.lib.tests
+
+Submodules
+----------
+
+vmware.vapi.lib.connect module
+------------------------------
+
+.. automodule:: vmware.vapi.lib.connect
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+

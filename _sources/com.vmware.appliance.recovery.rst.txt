@@ -1,0 +1,28 @@
+com.vmware.appliance.recovery package
+=====================================
+
+.. automodule:: com.vmware.appliance.recovery
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+Submodules
+----------
+
+com.vmware.appliance.recovery.backup\_client module
+---------------------------------------------------
+
+.. automodule:: com.vmware.appliance.recovery.backup_client
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+com.vmware.appliance.recovery.restore\_client module
+----------------------------------------------------
+
+.. automodule:: com.vmware.appliance.recovery.restore_client
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
